@@ -119,7 +119,7 @@ h2{
 }
 
 
-button, .button {
+button, .button, #mc-embedded-subscribe {
     background-color: #1EC4B4;
     border: none;
     color: white;
@@ -276,7 +276,7 @@ li{
    Form
    ========================================================================== */
 
-input[type=email]{
+input[type=email], .mc-field-group input{
     display: inline-block;
     min-width: 200px;
     font-size: 16px;
@@ -293,25 +293,25 @@ input[type=email]{
     -moz-box-sizing: border-box;
 }
 
-input[type=email]:focus {
+input[type=email]:focus, .mc-field-group input:focus {
     border: 1px solid rgba(22, 128, 118, 0.75);
 }
 
-input[type=email], .signup button{
+input[type=email], .signup button, #mc-embedded-subscribe{
     display: inline-block;
     width: 100%;
     }
 
 
 @media only screen and (max-width : 600px){
-    input[type=email], .signup button{
+    input[type=email], .signup button, #mc-embedded-subscribe{
         display: block;
         width: 100%;
     }
 }
 
 @media only screen and (max-width : 678px){
-    input[type=email], .signup button{
+    input[type=email], .signup button, #mc-embedded-subscribe{
         display: block;
         width: 100%;
     }
@@ -319,6 +319,10 @@ input[type=email], .signup button{
 
 #mc-embedded-subscribe{
     width: 100%;
+}
+
+#mc_embed_signup .mc-field-group{
+    padding-bottom: 0px !important;
 }
 
 
