@@ -137,7 +137,7 @@ button, .button, #mc-embedded-subscribe {
     line-height: inherit !important;
 }
 
-button:hover, .button:hover{
+button:hover, .button:hover, #mc-embedded-subscribe .button:hover{
     background-color: #169185 !important;
 }
 
