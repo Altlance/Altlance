@@ -123,6 +123,7 @@ button, .button, #mc-embedded-subscribe {
     background-color: #1EC4B4 !important;
     border: none !important;
     color: white !important;
+    margin: 0 !important;
     box-shadow: 0 30px 40px -10px rgba(22, 128, 118, 0.25) !important;
     border-radius: 4px !important;
     padding: 16px 32px !important;
@@ -132,6 +133,7 @@ button, .button, #mc-embedded-subscribe {
     font-size: 16px !important;
     transition: all 200ms ease-in !important;
     cursor: pointer !important;
+    line-height: inherit !important;
 }
 
 button:hover, .button:hover{
@@ -323,6 +325,7 @@ input[type=email], .signup button, #mc-embedded-subscribe{
 
 #mc_embed_signup .mc-field-group{
     padding-bottom: 0px !important;
+    width: 100% !important;
 }
 
 
